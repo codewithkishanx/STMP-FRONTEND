@@ -1,3 +1,5 @@
+LIVE DEMO := https://loomboard.codewithkishanx.co.in
+
 # Loomboard Frontend — SPMS student/mentor/admin app
 
 Vite + React 19 single-page app for the Student Project Management System: marketing landing, auth, student/mentor profile setup with photo upload, group browsing + join requests, realtime team and mentor chat, progress submission, a notification center, and an admin dashboard. Neo-brutalist paper design, zero webfonts, route-split bundles.
@@ -155,7 +157,10 @@ How it stays light: no webfonts (0 requests), no icon/UI framework, route-level 
 | Admin sees `/groups` | Update the frontend — admins route to `/admin` via `RequireAdmin`; old builds predate it |
 | CORS errors | Backend `CLIENT_URL` must include `http://localhost:3000` |
 
----
+---<img width="963" height="997" alt="image" src="https://github.c<img width="1919" height="1001" alt="Screenshot 2026-09-04 131210" src="https://github.com/user-attachments/assets/ffd15217-4a1f-447a-b233-3d5599a26731" />
+<img width="1634" height="863" alt="Screenshot 2026-09-04 131223" src="https://github.com/user-attachments/assets/2a171f24-bf0b-40e4-9870-45d9e45ecce6" />
+om/user-attachments/assets/b6849541-7fde-443c-946f-4f1e481fe329" />
+
 
 ## Further improvements
 
