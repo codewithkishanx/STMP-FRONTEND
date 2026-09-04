@@ -1,0 +1,23 @@
+.nb-wrap { position: relative; }
+.nb-bell { position: relative; background: transparent; border: 2px solid var(--card); color: var(--card); width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.nb-bell:hover { background: rgba(251, 247, 237, 0.12); }
+.nb-bell.has-unread { background: var(--gold); border-color: var(--card); color: var(--ink); }
+.nb-badge { position: absolute; top: -9px; right: -9px; background: var(--red); color: #fff; border: 2px solid var(--card); font-family: var(--mono); font-size: 10px; font-weight: 800; min-width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; padding: 0 4px; }
+.nb-panel { position: absolute; top: 44px; right: 0; width: 340px; max-width: 86vw; background: #fff; border: 3px solid var(--ink); box-shadow: var(--hard-lg); z-index: 60; }
+.nb-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 3px solid var(--ink); background: var(--card); }
+.nb-head strong { font-family: var(--display); font-size: 14px; text-transform: uppercase; font-weight: 400; }
+.nb-all { background: #fff; border: 2px solid var(--ink); font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 5px 10px; cursor: pointer; font-family: var(--sans); }
+.nb-all:hover:not(:disabled) { background: var(--gold); }
+.nb-all:disabled { opacity: 0.4; cursor: default; }
+.nb-list { max-height: 380px; overflow-y: auto; }
+.nb-item { padding: 12px 14px; border-bottom: 2px solid var(--card-edge); cursor: pointer; border-left: 6px solid transparent; }
+.nb-item:last-child { border-bottom: none; }
+.nb-item:hover { background: var(--card); }
+.nb-item.unread { border-left-color: var(--gold); background: #fffdf4; }
+.nb-type { font-family: var(--mono); font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); }
+.nb-item p { font-size: 13.5px; font-weight: 600; margin-top: 3px; line-height: 1.4; }
+.nb-time { font-family: var(--mono); font-size: 10.5px; color: var(--ink-faint); font-weight: 700; }
+.nb-empty { padding: 26px; text-align: center; color: var(--ink-soft); font-size: 13px; font-weight: 600; }
+.nb-more { width: 100%; background: var(--card); border: none; border-top: 3px solid var(--ink); padding: 10px; font-size: 12.5px; font-weight: 800; text-transform: uppercase; cursor: pointer; font-family: var(--sans); }
+.nb-more:hover { background: var(--gold); }
+@media (max-width: 560px) { .nb-panel { width: 300px; } }
